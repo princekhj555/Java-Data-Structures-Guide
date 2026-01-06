@@ -10,7 +10,7 @@ Welcome to the comprehensive Java Data Structures guide! This master document se
 
 ### Linear Data Structures
 
-#### 1. [Arrays](Java-Array-Operations-Guide.md)
+#### 1. [Arrays](Java-Array-Operations.md)
 **Fixed-size, contiguous memory structure**
 - Basic operations (access, modify, search)
 - Array manipulation (copy, fill, sort)
@@ -19,7 +19,7 @@ Welcome to the comprehensive Java Data Structures guide! This master document se
 - **Best for:** Fast random access, fixed-size collections
 - **Time Complexity:** Access O(1), Search O(n), Insert/Delete O(n)
 
-#### 2. [String](Java-String-Operations-Guide.md)
+#### 2. [String](Java-String-Operations.md)
 **Immutable character sequence**
 - String creation and manipulation
 - Searching and substring operations
@@ -28,7 +28,7 @@ Welcome to the comprehensive Java Data Structures guide! This master document se
 - **Best for:** Text processing, immutable text data
 - **Time Complexity:** charAt O(1), substring O(n), concat O(n)
 
-#### 3. [ArrayList](Java-ArrayList-Operations-Guide.md)
+#### 3. [ArrayList](Java-ArrayList-Operations.md)
 **Dynamic array with automatic resizing**
 - Adding and removing elements
 - Sorting and searching
@@ -37,7 +37,7 @@ Welcome to the comprehensive Java Data Structures guide! This master document se
 - **Best for:** Dynamic collections, frequent random access
 - **Time Complexity:** Access O(1), Add O(1) amortized, Insert/Delete O(n)
 
-#### 4. [LinkedList](Java-LinkedList-Operations-Guide.md)
+#### 4. [LinkedList](Java-LinkedList-Operations.md)
 **Doubly-linked list implementation**
 - Add/remove at both ends (O(1))
 - Deque and Queue operations
@@ -50,7 +50,7 @@ Welcome to the comprehensive Java Data Structures guide! This master document se
 
 ### Set Data Structures
 
-#### 5. [HashSet](Java-HashSet-Operations-Guide.md)
+#### 5. [HashSet](Java-HashSet-Operations.md)
 **Unordered collection of unique elements**
 - Adding and removing elements
 - Set operations (union, intersection, difference)
@@ -58,7 +58,7 @@ Welcome to the comprehensive Java Data Structures guide! This master document se
 - **Best for:** Fast lookups, eliminating duplicates, membership testing
 - **Time Complexity:** Add/Remove/Contains O(1) average
 
-#### 6. [TreeSet](Java-TreeSet-Operations-Guide.md)
+#### 6. [TreeSet](Java-TreeSet-Operations.md)
 **Sorted set with Red-Black tree implementation**
 - Sorted order maintenance
 - Navigation methods (first, last, floor, ceiling, lower, higher)
@@ -71,7 +71,7 @@ Welcome to the comprehensive Java Data Structures guide! This master document se
 
 ### Map Data Structures
 
-#### 7. [HashMap/Map](Java-HashMap-Operations-Guide.md)
+#### 7. [HashMap/Map](Java-HashMap-Operations.md)
 **Key-value pairs with fast lookup**
 - Put, get, and remove operations
 - Compute and merge operations
@@ -84,7 +84,7 @@ Welcome to the comprehensive Java Data Structures guide! This master document se
 
 ### Stack and Queue
 
-#### 8. [Stack](Java-Stack-Operations-Guide.md)
+#### 8. [Stack](Java-Stack-Operations.md)
 **LIFO (Last In, First Out) structure**
 - Push and pop operations
 - Peek without removal
@@ -92,7 +92,7 @@ Welcome to the comprehensive Java Data Structures guide! This master document se
 - **Best for:** Undo operations, expression evaluation, DFS, backtracking
 - **Time Complexity:** Push/Pop/Peek O(1)
 
-#### 9. [Queue](Java-Queue-Operations-Guide.md)
+#### 9. [Queue](Java-Queue-Operations.md)
 **FIFO (First In, First Out) structure**
 - Queue, PriorityQueue, Deque implementations
 - Offer/poll/peek operations
@@ -104,7 +104,7 @@ Welcome to the comprehensive Java Data Structures guide! This master document se
 
 ### Tree Data Structures
 
-#### 10. [Trees (Binary Trees, BST)](Java-Trees-Operations-Guide.md)
+#### 10. [Trees (Binary Trees, BST)](Java-Trees-Operations.md)
 **Hierarchical tree structures**
 - TreeNode implementation
 - Tree traversals (preorder, inorder, postorder, level-order)
